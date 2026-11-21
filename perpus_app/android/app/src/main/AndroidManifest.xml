@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Wajib agar build release bisa mengakses backend -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="perpus_app"
         android:name="${applicationName}"
